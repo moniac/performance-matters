@@ -9,19 +9,21 @@ const observer = new IntersectionObserver(function (entries, self) {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       // console.log(`Image ${entry.target.src} is in the viewport!`);
-      preloadImage(entry.target);
+      preloadImage(entry.target)
       // Stop watching and load the image
-      self.unobserve(entry.target);
+      self.unobserve(entry.target)
     }
-  });
-}, config);
+  })
+}, config)
 
 images.forEach(image => {
-  observer.observe(image);
+  observer.observe(image)
 });
 
 function preloadImage(img) {
   const src = img.getAttribute('data-src');
-  if (!src) { return; }
-  img.src = src;
+  if (!src) {
+    return
+  }
+  img.src = src
 }
