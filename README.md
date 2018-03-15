@@ -18,7 +18,3 @@ Differences from actual Bootstrap documentation:
 - Expose localhost: `npm run expose`
 
 ## Optimizations
-
-### Filesize
-
-* I ran all the CSS through a minifier to reduce filesize.
