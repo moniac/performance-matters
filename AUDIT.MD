@@ -1,3 +1,5 @@
+## Changes
+
 ### Filesize
 
 * I ran all the CSS through a minifier to reduce filesize.
@@ -30,3 +32,4 @@ If we look at these two images, you can see that the right one takes a full 3 se
 Extensions are amazing and lovely, but I forgot that some of them inject their own Javascript (and sometimes jQuery).
 
 Testing without extensions saved me from a lot of frustrations 😩
+
