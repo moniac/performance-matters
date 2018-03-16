@@ -11,3 +11,13 @@
 ### Fonts
 
 * I added the font-display: swap;, so that the fallback font gets used first and then swapped to the webfont.
+
+### Lazy Loading
+
+* I added lazyloading to help on slower networks. Now images will only be loaded when it is in view.
+
+## Before
+![alt text](http://i.imgur.com/DxQtd8y.jpg "Logo Title Text 1")
+
+## After
+![alt text](http://i.imgur.com/d1kXaav.jpg "Logo Title Text 1")
