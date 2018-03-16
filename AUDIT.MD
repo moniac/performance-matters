@@ -21,3 +21,12 @@
 
 ## After
 ![alt text](http://i.imgur.com/d1kXaav.jpg "Logo Title Text 1")
+
+## Where I messed up
+![alt text](http://i.imgur.com/jIMEjvx.jpg "Logo Title Text 1")
+
+If we look at these two images, you can see that the right one takes a full 3 seconds longer than the left one. Why is that you may wonder? One word. Extensions.
+
+Extensions are amazing and lovely, but I forgot that some of them inject their own Javascript (and sometimes jQuery).
+
+Testing without extensions saved me from a lot of frustrations 😩
