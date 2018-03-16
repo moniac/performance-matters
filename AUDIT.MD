@@ -6,6 +6,10 @@
 * Ditto for the JS
 * Compressed all the images to a much smaller filesize
 
+### Convert
+
+* I converted all the images to WEBP
+
 ### Critical CSS
 
 * I used https://jonassebastianohlsson.com/criticalpathcssgenerator/ to check the critical css and pasted this inline into the index.html
