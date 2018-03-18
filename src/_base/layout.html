@@ -17,17 +17,18 @@
     <link rel="preload" href="./dist/css/fonts.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="./assets/css/src/docs.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
-    <script async src="/assets/js/vendor/jquery.min.js"></script>
-    <script async defer src="/assets/js/docs.min.js"></script>
-    <script async defer src="/dist/js/bootstrap.js"></script>
-    <script async defer src="../assets/js/lazyload.js"></script>
-    <script async defer src="/assets/js/ie10-viewport-bug-workaround.js"></script>
-
     <noscript>
         <link href="./dist/css/fonts.css" rel="stylesheet">
         <link href="./dist/css/bootstrap.css" rel="stylesheet">
         <link href="./assets/css/src/docs.css" rel="stylesheet">
     </noscript>
+
+    <script src="/assets/js/vendor/jquery.min.js"></script>
+    <script async src="/dist/js/bootstrap.js"></script>
+    <script async defer src="/assets/js/docs.min.js"></script>
+    <script async defer src="../assets/js/lazyload.js"></script>
+    <script async defer src="/assets/js/ie10-viewport-bug-workaround.js"></script>
+
     {% block scripts_extra %}{% endblock %}
 </body>
 </html>
