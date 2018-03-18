@@ -23,13 +23,13 @@
 * I added lazyloading to help on slower networks. Now images will only be loaded when it is in view.
 
 ## Before
-![alt text](http://i.imgur.com/DxQtd8y.jpg "Logo Title Text 1")
+![The dom load time before](http://i.imgur.com/DxQtd8y.jpg "Logo Title Text 1")
 
 ## After
-![alt text](http://i.imgur.com/d1kXaav.jpg "Logo Title Text 1")
+![The dom load time after](http://i.imgur.com/d1kXaav.jpg "Logo Title Text 1")
 
 ## Where I messed up
-![alt text](http://i.imgur.com/jIMEjvx.jpg "Logo Title Text 1")
+![A comparision of an audit with and without extensions](http://i.imgur.com/jIMEjvx.jpg "Logo Title Text 1")
 
 If we look at these two images, you can see that the right one takes a full 3 seconds longer than the left one. Why is that you may wonder? One word. Extensions.
 
